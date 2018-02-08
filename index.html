@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="units">
+        <figure id="replicant">
+            <img src="images/replicant.png">
+            <p>Creates a temporal shield<br><br>
+            Cost: 100</p>
+        </figure>
+        <figure id="tempest">
+            <img src="images/tempest.png">
+            <p>Shoots energy balls<br><br>
+                Cost: 200</p>
+        </figure>
+        <figure id="oracle">
+            <img src="images/oracle.png">
+            <p>Paralyzes enemies<br>
+                Max: 1<br>
+                Cost: 500</p>
+        </figure>
+  </div>  
+  <div class="game-intro">
+        <button id="start-button">StartGame</button>
+  </div>
+  <div id="demo">
+    <canvas id="demoCanvas" width="1200" height="375"></canvas>
+  </div>
+  <script type="text/javascript" src="enemies.js"></script>
+  <script type="text/javascript" src="units.js"></script>
+  <script type="text/javascript" src="game.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript" src="demo.js"></script>
+</body>
+</html>
